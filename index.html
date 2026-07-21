@@ -25,40 +25,45 @@
     <meta name="twitter:image" content="https://t3b08-yc-karaoke-pr.vercel.app/twitter-image.jpg">
     
     <!-- JSON-LD 스키마 -->
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "EntertainmentBusiness",
+  "name": "염창 가라오케",
+  "description": "염창 지역 최고 가성비 가라오케. 홍대방 급 시스템에 로컬 가격. 1인 15,000원부터.",
+  "url": "https://hongdae-song-room.program-school.online/",
+  "telephone": "+82-10-6279-0862",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "염창",
+    "addressRegion": "서울",
+    "addressCountry": "KR"
+  },
+  "priceRange": "₩15,000 - ₩50,000",
+  "openingHours": "Mo-Su 12:00-06:00",
+  "review": [
     {
-        "@context": "https://schema.org",
-        "@type": "EntertainmentBusiness",
-        "name": "염창 가라오케",
-        "description": "염창 지역 최고 가성비 가라오케. 홍대방 급 시스템에 로컬 가격. 1인 15,000원부터.",
-        "url": "https://t3b08-yc-karaoke-pr.vercel.app/",
-        "telephone": "+82-10-6279-0862",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "염창",
-            "addressRegion": "서울",
-            "addressCountry": "KR"
-        },
-        "priceRange": "₩15,000 - ₩50,000",
-        "openingHours": "Mo-Su 12:00-06:00",
-        "review": [
-            {
-                "@type": "Review",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5",
-                    "bestRating": "5"
-                },
-                "author": {
-                    "@type": "Person",
-                    "name": "술먹는고등어"
-                },
-                "datePublished": "2025-03-15",
-                "reviewBody": "염창에서 이 가격에 이 퀄리티라니. 미친 가성비."
-            }
-        ]
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "술먹는고등어"
+      },
+      "datePublished": "2025-03-15",
+      "reviewBody": "염창에서 이 가격에 이 퀄리티라니. 미친 가성비."
     }
-    </script>
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "bestRating": 5,
+    "worstRating": 1
+  }
+}</script>
     
     <style>
         /* Swiss Minimal CSS DNA */
